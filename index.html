@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <div class="grid container">
+    <main>
+      <h1 class="sr-only">Frontend Mentor | Stats preview card component</h1>
+      <div class="card | flex | bg-primary-600">
+        <picture class="bg-primary-400">
+            <source srcset="images/image-header-desktop.jpg" media="(min-width: 65em)">
+            <img src="images/image-header-mobile.jpg" alt="">
+        </picture>
+        <div class="card-content">
+          <h2 class="text-neutral-100 fs-700">Get <span class="text-primary-400">insights</span> that help your business grow.</h2>
+
+          <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer
+            experience, and overall efficiency.</p>
+
+          <div class="card-stats | flex">
+            <div>
+              <p class="fs-500 fw-700 text-neutral-100">10k+</p>
+              <p class="ff-sans-2 fs-300 text-neutral-300 uppercase">companies</p>
+            </div>
+            <div>
+              <p class="fs-500 fw-700 text-neutral-100">314</p>
+              <p class="ff-sans-2 fs-300 text-neutral-300 uppercase">templates</p>
+            </div>
+            <div>
+              <p class="fs-500 fw-700 text-neutral-100 uppercase">12m+</p>
+              <p class="ff-sans-2 fs-300 text-neutral-300 uppercase">queries</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </main>
+
+    <footer class="text-align-center">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/kennylun123">Kenny Ng</a>.
+    </footer>
+
+  </div>
+</body>
+
+</html>
